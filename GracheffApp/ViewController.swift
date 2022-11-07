@@ -12,10 +12,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         doSmth()
+        doSmthAnother()
     }
 
     func doSmth() {
         print("Hello all")
+    }
+    
+    func doSmthAnother() {
+        print("Muahahahaha")
     }
 
 }
